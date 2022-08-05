@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  cloudflared:
+    container_name: cloudflared-vault
+    build: .
+    env_file:
+      - .cloudflare.env
