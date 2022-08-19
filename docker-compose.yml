@@ -5,4 +5,4 @@ services:
     container_name: cloudflared-vault
     build: .
     env_file:
-      - .cloudflare.env
+      - .env
